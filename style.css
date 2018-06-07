@@ -47,11 +47,11 @@ ul{
 	display:flex;
 	flex:1;
 	flex-wrap:wrap;
-	width:700px;
+	width:680px;
 }
 main {
 	margin-right:200px;
-	width:650px
+	width:600px
 }
 main > ul img{
 	width:270px;
@@ -82,18 +82,11 @@ main > ul li:first-of-type img{
  	margin-top:50px;
  	font-size:12px;
  }
-  footer ul{
+  footer > ul{
   	width:60%;
   	margin-right:250px;
   }
- footer ul li a{
+ footer > ul li a{
  	color:#ccc;
 	text-decoration:none;
  }
-
- @media (max-width: 425px) {
-    h1 {
-        font-size: 30px;
-   }
-
-}
