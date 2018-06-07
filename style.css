@@ -1,0 +1,99 @@
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    line-height: normal;
+    vertical-align: baseline;
+}
+body{
+	font-family:'Changa',sans-serif;
+	direction:rtl;
+	margin:0 auto;
+	width:720px;
+	background-image:url(https://d2uofabwotszv7.cloudfront.net/original/3X/f/2/f2a91d94a0d46e5cfeff794a58d6c793d3e9909b.png);
+	color:#fff;
+}
+
+header{
+	text-align:center;
+	font-size:60px;
+	margin-top:50px;
+	margin-bottom:50px;
+	word-spacing:20px
+}
+ul{
+	list-style-type:none;
+	width:100%;
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	padding-right:100px
+}
+li{
+	
+
+}
+main > ul img{
+	width:200px;
+	height:150px;
+}
+main > ul li:first-of-type img{
+	width:150px;
+	height:150px;
+}
+
+ main > ul li:nth-child(3) img{
+ 	width:150px;
+ 	height:150px;
+ }
+ main > ul li:last-of-type figure{
+ 	margin-top:50px;
+ 	
+ }
+ main > ul li:last-of-type figure img{
+ 	width:80%;
+ 	height:300px;
+ 	border:1px solid #ccc;
+ 	border-top-left-radius:100px;
+ 	border-bottom-right-radius:100px;
+ } 
+
+ footer{
+ 	margin-top:50px;
+ 	font-size:10px
+
+ }
+  footer ul{
+  	margin-right:50px
+  }
+ footer ul li{
+ 	margin-left:40px
+ }
+ footer ul li a{
+ 	color:#fff;
+	text-decoration:none;
+
+
+ }
